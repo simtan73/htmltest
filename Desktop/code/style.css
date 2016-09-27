@@ -1,0 +1,41 @@
+body{
+	background : blue;
+}
+
+.container{
+	width			:1024px;
+	border:  		:solid 1px black:;
+	margin 			:0px;
+}
+
+nav{
+	margin: 0 auto;
+	background: red;
+	width: 1024px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	border: solid 1px;
+}
+.mainArea{
+	background : orange;
+	clear: both;
+}
+section{
+	background		:#ccc;
+	min-height      :80vh;
+	width 			:50%;
+	float 			:left:;
+}
+.content{
+	border 			:solid 1px black;
+	padding         :10px;
+	min-height      :200px;
+	border-radius   :10px;
+	margin          :5px;
+}
